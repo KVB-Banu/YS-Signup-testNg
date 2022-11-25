@@ -13,11 +13,11 @@ import org.testng.annotations.Test;
 
 public class GenieSignupPage extends BaseClass{
 	
-	@Test( description =" signp on genie account", groups={"genie","multivendor","b2b","service"}, enabled= false)
+	@Test( description =" signp on genie account", groups={"genie","multivendor","b2b","service"}, enabled= true)
 	public void signupPage() throws InterruptedException
 	{
      
-		//Hello World
+		
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 
 		System.out.println("Current Url:" + driver.getTitle());
