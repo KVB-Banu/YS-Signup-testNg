@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="Authendication.ProSignup">
+        <methods>
+          <include name="proSignupPage"/>
+          <include name="openBrowser"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- Authendication.ProSignup -->
+      <class name="Authendication.Signup">
+        <methods>
+          <include name="proSignup"/>
+        </methods>
+      </class> <!-- Authendication.Signup -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
